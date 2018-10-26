@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
   <TalendProperties:Project xmi:id="_oEVeIdkoEeiqHP7XtZFWYg" label="formation_git" language="java" technicalLabel="FORMATION_GIT" author="_oEVeItkoEeiqHP7XtZFWYg" productVersion="Talend Cloud Data Integration-7.0.1.20180903_1027-patch" url="{&quot;location&quot;:&quot;https://github.com/JCFormation/talend_formation.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DI" bigData="false">
+    <technicalStatus xmi:id="_qkNZ4NkoEeiqHP7XtZFWYg" label="development" code="DEV"/>
+    <technicalStatus xmi:id="_qkNZ4dkoEeiqHP7XtZFWYg" label="testing" code="TEST"/>
+    <technicalStatus xmi:id="_qkNZ4tkoEeiqHP7XtZFWYg" label="production" code="PROD"/>
+    <documentationStatus xmi:id="_qj534NkoEeiqHP7XtZFWYg" label="unchecked" code="UCK"/>
+    <documentationStatus xmi:id="_qj534dkoEeiqHP7XtZFWYg" label="checked" code="CHK"/>
+    <documentationStatus xmi:id="_qj534tkoEeiqHP7XtZFWYg" label="validated" code="VAL"/>
     <migrationTask xmi:id="_qetO0NkoEeiqHP7XtZFWYg" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_qetO0dkoEeiqHP7XtZFWYg" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_qetO0tkoEeiqHP7XtZFWYg" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
@@ -26,4 +32,7 @@
     <migrationTask xmi:id="_qetO5tkoEeiqHP7XtZFWYg" id="org.talend.repository.model.migration.RepositoryProjectDateMigrationTask" breaks="7.0.0" version="7.0.0" status="noimpact"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_oEVeItkoEeiqHP7XtZFWYg" login="mbarret@joueclub" firstName="Marina" lastName="BARRET" type="DI"/>
+  <TalendProperties:User xmi:id="_qkgU0NkoEeiqHP7XtZFWYg" login="mgrange@joueclub" firstName="Mederic" lastName="GRANGE" type="DI">
+    <projectAuthorization href="../C:/Talend-Tools-Studio-20180411_1414-V7.0.1/#/2"/>
+  </TalendProperties:User>
 </xmi:XMI>
